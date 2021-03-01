@@ -1,0 +1,6 @@
+config/
+data/
+.pytest_cache/
+assets/
+logs/
+reports/

@@ -1,0 +1,26 @@
+host: "http://8.129.91.152:8766/futureloan"
+
+db:
+  host: "8.129.91.152"
+  port: 3306
+  user: "future"
+  password: "123456"
+
+loan_user:
+  user_name: "15823451234"
+  password: "12345678"
+
+admin_user:
+  user_name: "18012341212"
+  password: "12345678"
+
+invest_user:
+  user_name: "18022341212"
+  password: "12345678"
+
+logger:
+  logger_name: "root"
+  logger_level: "DEBUG"
+  stream_handler_level: "INFO"
+  file_handler_level: "INFO"
+  format_data: "time:%(asctime)s--%(levelname)s:%(name)s:%(message)s--%(filename)s---%(lineno)s"
